@@ -1,0 +1,19 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement style="flex-grow: 1; position: absolute; bottom: 0; align-self: center; height: 100px; width: 240px; background-image: none; flex-direction: row; left: auto; background-color: rgba(0, 0, 0, 0.43); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
+        <engine:VisualElement style="flex-grow: 1; width: 40%;">
+            <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                <engine:VisualElement style="flex-grow: 1;" />
+                <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Assets/Keys/T_W_Key_Dark.png?fileID=2800000&amp;guid=1ae370da2056e9543aa1d05d188f78e3&amp;type=3#T_W_Key_Dark&quot;);" />
+                <engine:VisualElement style="flex-grow: 1;" />
+            </engine:VisualElement>
+            <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Assets/Keys/T_A_Key_Dark.png?fileID=2800000&amp;guid=f94b60e3a3d6fd844adde3b4ca32ea05&amp;type=3#T_A_Key_Dark&quot;);" />
+                <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Assets/Keys/T_S_Key_Dark.png?fileID=2800000&amp;guid=6c1dedd6388a65a4cbd042af6d3f7b7a&amp;type=3#T_S_Key_Dark&quot;);" />
+                <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Assets/Keys/T_D_Key_Dark.png?fileID=2800000&amp;guid=d7fce0da2acb58346816075bba176d51&amp;type=3#T_D_Key_Dark&quot;);" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Assets/Bombs/dynamite-pack.png?fileID=1138553453&amp;guid=70748ea0ea76a7345b916dd49b09fc3d&amp;type=3#dynamite-pack_0&quot;); height: auto; width: auto;">
+            <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Assets/Keys/T_E_Key_Dark.png?fileID=2800000&amp;guid=33464cffc476d934993bdc2d393fb29d&amp;type=3#T_E_Key_Dark&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; right: 0; bottom: 0; width: 40px; height: 40px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

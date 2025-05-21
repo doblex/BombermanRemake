@@ -1,0 +1,17 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/mainstyle.uss?fileID=7433441132597879392&amp;guid=665298ca693e66a4985d1eaaf4dd826f&amp;type=3#mainstyle" />
+    <engine:VisualElement style="flex-grow: 1; align-self: center; width: 400px; flex-direction: row;">
+        <engine:VisualElement style="flex-grow: 1; align-self: center; height: 500px; background-color: rgba(0, 0, 0, 0.56);">
+            <engine:Label text="Pause" style="color: rgb(255, 255, 255); -unity-text-align: middle-center; font-size: 40px;" />
+            <engine:VisualElement style="flex-grow: 1; align-self: center; width: 50%;">
+                <engine:Button text="Quit&#10;" name="Quit" />
+            </engine:VisualElement>
+            <engine:VisualElement style="flex-grow: 1;">
+                <engine:Label text="Cheats" style="-unity-text-align: middle-center; font-size: 30px; color: rgb(255, 255, 255);" />
+                <engine:VisualElement style="flex-grow: 1; align-self: stretch;">
+                    <engine:Toggle label="Invincibility" toggle-on-label-click="true" value="false" focusable="false" name="Invincible" style="color: rgb(245, 245, 245); align-self: center;" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
