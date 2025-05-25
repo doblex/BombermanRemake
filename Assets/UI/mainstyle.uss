@@ -1,5 +1,5 @@
 .unity-button {
-    background-image: url("project://database/Assets/Assets/Blocks/tiles.png?fileID=820754953&guid=144e075901b77d048aace1c8b7c3e90f&type=3#tiles_4");
+    background-image: none;
     -unity-background-scale-mode: scale-to-fit;
     background-repeat: repeat repeat;
     background-position-x: center 0;

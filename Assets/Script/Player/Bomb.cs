@@ -4,6 +4,7 @@ using UnityEngine.Tilemaps;
 public class Bomb : MonoBehaviour
 {
     [SerializeField] int explosionRadius = 2;
+    [SerializeField] float cellDimensionMultiplayer = 0.48f;
     [SerializeField] float explosionDuration = 1f;
     [SerializeField] GameObject explosionPrefab;
     [SerializeField] float explosionDelay = 2f;
@@ -68,8 +69,8 @@ public class Bomb : MonoBehaviour
                 explosionGrid[centerIndex + dx, centerIndex + dy] = true;
             }
 
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, ((Vector2Int)dir),explosionRadius + 1, layer);
-
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, ((Vector2Int)dir),explosionRadius * cellDimensionMultiplayer, layer);
+            Debug.DrawLine(transform.position, hit.point, Color.yellow,5f);
             if(hit.collider != null)
             {
                 HealthController healthController;

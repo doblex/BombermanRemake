@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionRadius: 2
+  cellDimensionMultiplayer: 0.48
   explosionDuration: 1
   explosionPrefab: {fileID: 7722273229117820697, guid: 4329ffedd0e40204d8b4eec04f01192c, type: 3}
   explosionDelay: 2
